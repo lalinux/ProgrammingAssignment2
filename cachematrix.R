@@ -1,3 +1,9 @@
+## This functions are useful if you want to cache the inverse of a matrix.
+## First, you need to pass your matrix to the makeCacheMatrix function, 
+## it will create a cacheable matrix, then, every time you need to get the 
+## inverse, call the cacheSolve function with your previously created 
+## cacheable matrix
+
 ## initialize a cacheable matrix
 
 makeCacheMatrix <- function(x = matrix()) {
